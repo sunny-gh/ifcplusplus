@@ -17,3 +17,7 @@ The IFC library used in IfcSplitAndMerge is called web-ifc https://github.com/Th
 
 Web-ifc is so light weight, it can be directly compiled into a C++ console or GUI application, or linked as a library on Windows or Linux. It even compiles and runs efficiently as WebAssembly.
 
+
+## Minimal IFC file loading example using web-ifc
+
+https://github.com/ifcquery/IfcFileLoader is an example C++ project that demonstrates how to load an IFC file, read elements, create meshes etc. using web-ifc. It does not convert the meshes into OSG geometry and has no Qt based UI like IfcSplitAndMerge.
